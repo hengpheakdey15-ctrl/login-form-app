@@ -1,0 +1,25 @@
+{
+  "name": "login-form-app",
+  "version": "1.0.0",
+  "description": "Comprehensive login form application with React and Node.js",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w frontend\" \"npm run dev -w backend\"",
+    "build": "npm run build -w frontend",
+    "start": "npm start -w backend"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "keywords": [
+    "login",
+    "authentication",
+    "react",
+    "express",
+    "jwt"
+  ]
+}
